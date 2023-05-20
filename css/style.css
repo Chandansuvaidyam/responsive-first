@@ -1,0 +1,503 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.header2 {
+    display: flex;
+    margin-right: 30px;
+}
+
+.logo img {
+    width: 200px;
+    height: 61px;
+    padding-left: 20px;
+}
+
+nav {
+    padding-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 5px;
+
+}
+
+nav li a:hover {
+    color: gray;
+
+}
+
+nav ul li a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+
+
+
+}
+
+.btn {
+    background-color: white;
+    padding: 7px 44px;
+
+
+}
+
+.btn:hover {
+    color: white;
+    background-color: black;
+
+}
+
+.pic1 img {
+    width: 100%;
+    height: 450px;
+    background-position: center;
+
+}
+
+.a1 {
+    margin-top: 30px;
+}
+
+.a1 span {
+    display: block;
+    text-align: center;
+    font-size: 80px;
+
+}
+
+.a1 p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.main {
+    width: 100%;
+    padding-top: 90px;
+}
+
+.p {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    padding-top: 60px;
+
+
+}
+
+.p1 {
+    width: 50%;
+    background-color: white;
+    padding-top: 0px;
+    display: flex;
+    justify-content: end;
+    padding-right: 100px;
+    font-size: 30px;
+
+}
+.every{
+    width: 313px;
+}
+
+.p1 span {
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+
+.p1 span hr {
+    border: 1px solid red;
+    width: 60px;
+    height: 0px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.p1 span {
+    display: inline-flex;
+
+
+
+}
+
+.p2 {
+    width: 50%;
+    background-color: white;
+
+}
+
+.p2 p {
+    line-height: 25px;
+    margin-right: 235px;
+
+
+}
+
+.q1 {
+
+    font-size: 9px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+
+.main2 {
+    width: 100%;
+    display: flex;
+    padding-top: 45px;
+}
+
+.a2 {
+    width: 50%;
+
+}
+
+.a2 img {
+    width: 100%;
+}
+
+.a3 {
+    width: 50%;
+    padding-left: 80px;
+
+}
+
+.main h1 {
+    padding-top: 35px;
+    font-size: 45px;
+    letter-spacing: 8px
+}
+
+.main2 h5 {
+    padding-left: 10px;
+}
+
+.main2 p {
+    padding-top: 30px;
+    line-height: 23px;
+}
+
+.main2 span p {
+    padding-top: 10px;
+}
+
+.q3 {
+    background-color: white;
+    padding: 7px 25px;
+}
+
+.q3:hover {
+    color: white;
+    background-color: black;
+}
+
+.q4 {
+    width: 100%;
+    background-color: white;
+    margin-top: 120px;
+}
+
+.svg-icon {
+    width: 200px;
+    
+}
+
+.q5 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0C1D39;
+    color: white;
+    padding-top: 70px;
+}
+
+.q5 hr {
+    width: 30px;
+    border: 1px solid;
+}
+
+.q6 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 215px;
+
+}
+
+.q7 {
+    width: 100%;
+    height: 200px;
+}
+
+.q8 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    gap: 85px;
+}
+
+.btn1 {
+
+    background-color: white;
+    padding: 7px 25px;
+}
+
+.btn1 {
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+
+}
+
+.btn1:hover {
+    background-color: white;
+    color: black;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.flex-border {
+    width: 50px;
+    border-bottom: 1px solid black;
+}
+
+.z1 form input {
+    width: 150px;
+    height: 30px;
+    margin-top: 40px;
+    /* display: inline; */
+}
+
+.z1 form {
+    display: inline-flex;
+}
+
+.btn2 {
+    width: 100px;
+    height: 30px;
+}
+
+.btn2 {
+    color: #0C1D39;
+    background-color: white;
+}
+
+.btn2:hover {
+    color: white;
+    background-color: #0C1D39;
+}
+
+.span {
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 65px;
+    background-color: #3a4961;
+    color: white;
+    padding-left: 240px;
+    padding-top: 25px;
+    font-size: 13px;
+}
+
+.side1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.leading {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.partner {
+    font-size: 50px;
+}
+
+.line {
+    width: 60px;
+    height: 0.6px;
+    background-color: black;
+}
+
+.side2 {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.svg-img {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0% 18%;
+}
+
+.svg-icon {
+    /* width: 15%; */
+    display: flex;
+}
+.img3 {
+    width: 100%;
+    padding-left: 50px;
+}
+
+.img {
+    width: 100px;
+}
+
+.img2 {
+    width: 150px;
+    
+}
+
+
+.img4 {
+    width: 200px;
+}
+
+/* Ipad Responsive*/
+/* 
+ @media (max-width:768px) {
+    .header2{
+        display: none;
+    }
+    .p{
+        height: auto;
+    }
+    .p1{
+        margin-right: 0px;
+        padding-left: 10px;
+    }
+    .p2 p{
+        margin-right: 10px;
+    }
+    .main2{
+        display: block;
+    }
+    .a2{
+        width: 100%;
+    }
+    .a3{
+        width: 100%;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .svg-img{
+        padding: 0% 0%;
+    }
+    .img4{
+        width: auto;
+    }
+    .partner {
+        font-size: 36px;
+    }
+    .q6{
+        padding-left: 30px;
+    }
+    .q8{
+        gap: 48px;
+    }
+    
+    
+}  */
+
+
+/* Phone Responsive*/
+
+@media (max-width:500px) {
+    .pic1 img{
+        height: 210px;
+    }
+    .header2{
+        display: none;
+    }
+    .a1 span{
+        font-size: 40px;
+        text-align: justify;
+        padding-left: 24px;
+        padding-bottom: 5px;
+    
+    }
+    .a1 p{
+        font-size: 13px;
+        text-align: justify;
+        padding-left: 24px;
+    }
+    .p1 span hr{
+        display: none;
+    }
+    .p1 span{
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        padding-bottom: 10px;
+        color: grey;
+    }
+    .p{
+        display:inline;
+        width: 100%;
+        justify-content: start;
+    }
+    .p1{
+        width: 100%;
+        font-size: 28px;
+        padding: 0%;
+        padding-top: 30px;
+        padding: 24px 24px 0px 24px;
+
+
+    }
+    .every{
+        width: 100% ;
+        margin: 0%;
+        padding: 0%;
+    }
+    .p2 {
+        width: 100%;    
+}
+.p2 p{
+    margin: 0%;
+    padding: 0px 24px 0px 24px;
+    font-size: 20px;
+    line-height: 30px;
+    color: gray;
+    
+
+}
+}
